@@ -1,5 +1,8 @@
 ### yamaica-ea
 
+##### Mod info
+Changes to support Franca 0.12.0, Eclipse Neon.3 and Enterprise Architect 13.
+
 ##### Copyright
 Copyright (C) 2017 Bayerische Motoren Werke Aktiengesellschaft (BMW AG).
 

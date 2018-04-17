@@ -10,7 +10,7 @@
       <wizard
             category="de.bmw.yamaica.ea.ui.exportCategory"
             class="de.bmw.yamaica.ea.ui.internal.franca.ExportWizard"
-            icon="platform:/plugin/org.eclipse.ui/icons/full/obj16/elements_obj.gif"
+            icon="platform:/plugin/org.eclipse.ui/icons/full/obj16/elements_obj.png"
             id="de.bmw.yamaica.ea.ui.exportWizard"
             name="Franca IDL files to Enterprise Architect Project">
          <description>
@@ -27,7 +27,7 @@
       <wizard
             category="de.bmw.yamaica.ea.ui.importCategory"
             class="de.bmw.yamaica.ea.ui.internal.franca.ImportWizard"
-            icon="platform:/plugin/org.eclipse.ui/icons/full/obj16/elements_obj.gif"
+            icon="platform:/plugin/org.eclipse.ui/icons/full/obj16/elements_obj.png"
             id="de.bmw.yamaica.ea.ui.importWizard"
             name="Franca IDL files from Enterprise Architect Project">
          <description>

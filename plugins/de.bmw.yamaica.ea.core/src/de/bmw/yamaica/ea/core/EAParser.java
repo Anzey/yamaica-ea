@@ -248,11 +248,11 @@ public class EAParser
             System.out.println("      State Flags: " + c.GetStateFlags());
             System.out.println("      Alias: " + c.GetAlias());
 
-            Iterator<Property> iterator = c.GetProperties().iterator();
+            Iterator<Object> iterator = c.GetProperties().iterator();
 
             while (iterator.hasNext())
             {
-                Property property = iterator.next();
+                Property property = (Property) iterator.next();
 
                 System.out.println("      Property: " + property.GetName() + " -> " + property.GetValue());
             }
@@ -312,11 +312,11 @@ public class EAParser
 
     public static void parseConnector(Connector connector)
     {
-        Iterator<Property> iter = connector.GetProperties().iterator();
+        Iterator<Object> iter = connector.GetProperties().iterator();
 
         while (iter.hasNext())
         {
-            Property p = iter.next();
+            Property p = (Property) iter.next();
 
             System.out.println(p.GetName() + " -> " + p.GetValue());
         }
